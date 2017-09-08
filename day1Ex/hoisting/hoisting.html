@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <h1>Hoisting is JavaScript's default behavior of moving declarations to the top.</h1>
+
+    </head>
+<body>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+    //ex1
+var x; // Declare x
+x = 5; // Assign 5 to x
+
+elem = document.getElementById("demo1"); // Find an element 
+elem.innerHTML = x;                     // Display x in the element
+
+//ex2
+x = 5; // Assign 5 to x
+
+elem = document.getElementById("demo2"); // Find an element 
+elem.innerHTML = x;                     // Display x in the element
+
+var x; // Declare x
+</script>
+
+</body>
+</html> 
+
