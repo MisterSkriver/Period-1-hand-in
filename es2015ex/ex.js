@@ -93,12 +93,6 @@ console.log(numbers.fives);
 
 //B
 console.log("B\n")
-/* var counter = {
-    count: 0,
-    inc: function () {
-      this.count++;
-    }
-  } */
 
 var counter = {
     count: 0,
@@ -181,14 +175,6 @@ function getPerson() {
 let {lastName, phone} = getPerson();
 
 console.log(lastName + " " + phone);
-
-
-/* ex-8 */
-
-//import * as fFunc from "./myModule/fModule.js";
-
-//console.log(fFunc.f(5, 2, true, 2, "hello World", [1, 2, 3], new Date(), {}));
-
 
 /* ex-8 */
 
